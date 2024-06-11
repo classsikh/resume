@@ -1,0 +1,71 @@
+
+
+* {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body{
+    color: #4362a5;
+    
+}
+.box{
+    padding: 20px;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    }
+.left  {
+    max-width: 350px;
+    margin: 10px;
+}
+.mid  {
+    max-width: 350px;
+    margin: 10px;
+    max-height:fit-content;
+}
+.right{
+    max-width: 350px;
+    margin: 10px;
+}
+.borderBox {
+    border: 2px solid #4362a5; 
+}
+
+.itemCenter{
+    align-items: center;
+}
+.skills{
+    flex-direction: column;
+    margin-bottom: 10px;
+    }
+.hobby{
+        flex-direction: column;
+        margin-top: 10px;
+        } 
+.spaceBetween{
+    justify-content: space-around;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content {
+    padding: 10px;
+}
+span.square{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.padding{
+   padding-left:10px;
+   padding-top: 2px;
+
+}
