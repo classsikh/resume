@@ -7,26 +7,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px 400px;   
  
-   
 }
 .grid{
     display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 250px 2px 250px 2px 2px 250px 2px 250px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 175px 2px 175px 2px 2px 175px 2px 175px;
     gap:15px;
+    width: 1024;
+   
     
     
 }
 div>h2,h1{
     text-align: center;
+    font-size: medium;
+}
+p,ul{
+    font-size: small;
 }
 .border{
     border: #4362a5 3px solid;
 }
 .profilepic{
-   height: 350px;
-   width: 347px;
+   height: 250px;
+   width: 247px;
 }
 .box1{
     grid-row: 1/4;
